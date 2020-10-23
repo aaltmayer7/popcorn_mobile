@@ -1,0 +1,48 @@
+name: popcorn_mobile
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  get: ^3.8.0
+  flutter_dotenv: ^2.1.0
+  flutter_hooks: ^0.13.2
+  json_annotation: ^3.0.1
+  json_serializable: ^3.4.1
+  flutter_styled_toast: ^1.2.1
+  enum_to_string: ^1.0.9
+  flutter_form_builder: ^3.14.0
+  freezed_annotation: ^0.11.0+1
+  lottie: ^0.7.0
+  animated_bottom_navigation_bar: ^0.1.2+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  freezed: ^0.11.6
+  lint: ^1.1.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+    - assets/animations/
+    - assets/svg/
+    - .env.dev
+    - .env.prod
+  fonts:
+    - family: ProductSansRegular
+      fonts:
+        - asset: fonts/ProductSansRegular.ttf
+    - family: ProductSansBold
+      fonts:
+        - asset: fonts/ProductSansBold.ttf
